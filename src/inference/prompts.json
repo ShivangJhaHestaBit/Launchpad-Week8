@@ -1,0 +1,17 @@
+[
+  {
+    "id": "qa_1",
+    "prompt": "Does Go language use Copy-on-write for strings as in Java? I.e. if I pass a string by value to a method and never change it will this allocate memory and copy the string (which will be time inefficient) or it will just reference a single copy.",
+    "output": "It's not Copy-on-Write, as strings are immutable. But sharing a string will not make a copy of the underlying memory region either. In Go, a string is represented as a (length, data) pair. If you pass a string around, Go will copy the length and the pointer but not the data pointed to."
+  },
+  {
+    "id": "qa_2",
+    "prompt": "How can I use Go append with two []byte slices or arrays?",
+    "output": "You need to use []T... for the final argument. For your example, with the final argument slice type []byte, the argument is followed by ..., append(one[:], two[:]...)."
+  },
+  {
+    "id": "qa_3",
+    "prompt": "Is os.Getenv(\"HOME\") the best way to obtain the running user's home directory in Go?",
+    "output": "Since Go 1.12 the recommended way is os.UserHomeDir()."
+  }
+]

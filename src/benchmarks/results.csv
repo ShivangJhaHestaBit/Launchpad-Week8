@@ -1,0 +1,3 @@
+gguf-q4,1,Does Go language use Copy-on-write for strings as in Java? I.e. if I pass a string by value to a method and never change it will this allocate memory and copy the string (which will be time inefficient) or it will just reference a single copy.,138,19.692,3.801,7.01,0.8462
+gguf-q4,2,How can I use Go append with two []byte slices or arrays?,236,27.773,1.107,8.5,0.6103
+gguf-q4,1,"Is os.Getenv(""HOME"") the best way to obtain the running user's home directory in Go?",110,8.42,0.73,13.06,0.7057
