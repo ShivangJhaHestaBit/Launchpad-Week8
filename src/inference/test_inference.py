@@ -57,7 +57,7 @@ async def stream_one_prompt( LLM: AsyncOpenAI, prompt: str, expected: str, promp
     first_token_time = None
 
     stream = await LLM.chat.completions.create(
-        model="src/quantized/merged-fp16",
+        model="src/quantized/merged-fp16", # model id should be same as the model severd it can be seen on the endpoint v1/models
         messages=[{"role": "user", "content": prompt}],
         max_tokens=256,
         temperature=0.7,
