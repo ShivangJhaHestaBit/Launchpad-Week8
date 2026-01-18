@@ -1,0 +1,11 @@
+2026-01-18T10:59:46.906693 | [b2604370-14f4-455d-85d6-f15513ff7789] /generate started
+2026-01-18T11:02:53.589711 | [dfbb7c1c-e4e8-4865-828d-e485d42f19c7] /generate started
+2026-01-18T11:24:22.077807 | [16956fb5-db7f-4e90-ba2b-c2ea7667937c] /generate started
+2026-01-18T11:24:22.079311 | [16956fb5-db7f-4e90-ba2b-c2ea7667937c] streaming | model=src/quantized/model-q4_0.gguf | msgs=1
+2026-01-18T11:58:19.179873 | [8eb80eb2-6bda-4b31-8c42-142246c8dbce] /generate started
+2026-01-18T11:58:19.181254 | [8eb80eb2-6bda-4b31-8c42-142246c8dbce] streaming | model=src/quantized/model-q4_0.gguf | msgs=1
+2026-01-18T12:00:37.042520 | [d2a5060a-3e8b-4cf5-ae38-d8b577c428a6] /chat started | chat_id=27c34aa0-46fc-4dee-92c4-855e3a378323
+2026-01-18T12:00:37.043950 | [d2a5060a-3e8b-4cf5-ae38-d8b577c428a6] streaming | model=src/quantized/model-q4_0.gguf | msgs=1
+2026-01-18T12:00:44.171145 | [d2a5060a-3e8b-4cf5-ae38-d8b577c428a6] /chat completed | chat_id=27c34aa0-46fc-4dee-92c4-855e3a378323 | turns=2
+2026-01-18T12:06:28.641567 | [11372c06-9a9f-4abe-ae5e-5c66b0401c5f] /generate started
+2026-01-18T12:06:28.643202 | [11372c06-9a9f-4abe-ae5e-5c66b0401c5f] streaming | model=src/quantized/model-q4_0.gguf | msgs=1
